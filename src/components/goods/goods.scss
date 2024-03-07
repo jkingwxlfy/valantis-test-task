@@ -1,0 +1,10 @@
+.goods {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}

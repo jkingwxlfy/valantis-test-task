@@ -1,0 +1,30 @@
+.pagination {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 50%;
+
+    &__wrapper {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    &__item {
+        border: 1px solid #969696;
+        border-radius: 100%;
+        cursor: pointer;
+        padding: 10px 15px;
+        text-align: center;
+        user-select: none;
+
+        &.selected {
+            border: 3px solid rgb(50 183 255);
+            font-weight: 700;
+        }
+
+        &.disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+    }
+}

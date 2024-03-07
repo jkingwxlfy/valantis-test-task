@@ -1,0 +1,56 @@
+/* stylelint-disable-next-line import-notation */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.message {
+    display: flex;
+    position: absolute;
+    inset: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.app {
+    &__container {
+        margin: 0 auto;
+        background-color: #efeeec;
+        padding-bottom: 50px;
+        width: 1140px;
+        height: 100%;
+        min-height: 100dvh;
+
+        h1 {
+            padding: 40px 0;
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+
+    &__title {
+        padding: 40px 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    &__wrapper {
+        position: relative;
+        height: 500px;
+    }
+
+    &__filter-message {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        font-size: 2rem;
+    }
+}
